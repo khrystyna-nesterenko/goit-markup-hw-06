@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  max-width: 320px;
+  min-width: 320px;
   padding: 0 16px;
   margin: 0 auto;
 }
@@ -92,6 +92,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .navigation {
